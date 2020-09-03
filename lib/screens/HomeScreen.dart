@@ -53,7 +53,7 @@ class HomeScreen extends StatelessWidget {
                 final Post post = posts[index];
                 return PostContainer(post: post);
               },
-              childCount: 1,
+              childCount: posts.length,
             ),
           )
         ],

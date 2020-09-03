@@ -18,7 +18,7 @@ final List<Post> posts = [
     comments: 100,
     likes: 250,
     description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
+        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed.',
     retweets: 1000,
   ),
   Post(
