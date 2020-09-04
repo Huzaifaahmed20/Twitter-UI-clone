@@ -9,10 +9,12 @@ final User currentUser = User(
 final List<Post> posts = [
   Post(
     user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
+      name: 'Trinh Monahan',
+      userName: '@annetta.lockman',
+      imageUrl:
+          'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg',
+      isVerified: true,
+    ),
     imageUrl:
         'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
     comments: 100,
@@ -23,10 +25,12 @@ final List<Post> posts = [
   ),
   Post(
     user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
+      name: 'Trinh Monahan',
+      userName: '@annetta.lockman',
+      imageUrl:
+          'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg',
+      isVerified: false,
+    ),
     imageUrl:
         'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
     comments: 100,
@@ -37,206 +41,28 @@ final List<Post> posts = [
   ),
   Post(
     user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
+      name: 'Trinh Monahan',
+      userName: '@annetta.lockman',
+      imageUrl:
+          'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg',
+      isVerified: true,
+    ),
     imageUrl:
         'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
     comments: 100,
     likes: 250,
     description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
+        '#Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
     retweets: 1000,
   ),
   Post(
     user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
-    comments: 100,
-    likes: 250,
-    description:
-        'Doloremque assumenda voluptatibus voluptas cupiditate. Eum commodi aut non. Inventore necessitatibus velit iure sed. Aperiam est eum quod aliquid odit repellendus maiores. Ab dolores qui nemo molestias sit sit et.',
-    retweets: 1000,
-  ),
-  Post(
-    user: User(
-        name: 'Trinh Monahan',
-        userName: '@annetta.lockman',
-        imageUrl:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg'),
+      name: 'Trinh Monahan',
+      userName: '@annetta.lockman',
+      imageUrl:
+          'https://s3.amazonaws.com/uifaces/faces/twitter/iamkeithmason/128.jpg',
+      isVerified: true,
+    ),
     imageUrl:
         'https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg',
     comments: 100,
