@@ -99,7 +99,6 @@ class ContentContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var data = post.description.split(' ');
     return Expanded(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

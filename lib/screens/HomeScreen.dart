@@ -5,7 +5,12 @@ import 'package:twitter_ui_clone/config/pallete.dart';
 import 'package:twitter_ui_clone/models/Post.dart';
 import 'package:twitter_ui_clone/widgets/widgets.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
+  @override
+  _HomeScreenState createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
