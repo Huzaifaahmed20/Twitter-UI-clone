@@ -1,6 +1,24 @@
 import 'package:twitter_ui_clone/models/Post.dart';
 import 'package:twitter_ui_clone/models/User.dart';
 
+final String bgImage =
+    'https://www.sciencealert.com/images/2020-07/processed/masks_ranked_1024.jpg';
+
+final List<String> trends = [
+  '#TestOne',
+  '#TestTwo',
+  '#TestThree',
+  '#TestFour',
+  '#TestFive',
+  '#TestSix',
+  '#TestSeven',
+  '#TestEight',
+  '#TestNine',
+  '#TestTen',
+  '#TestEleven',
+  '#TestTwelve',
+];
+
 final User currentUser = User(
     name: 'Theressa Emmerich',
     imageUrl:
@@ -19,8 +37,7 @@ final List<Post> posts = [
         'https://images.unsplash.com/photo-1600676897506-f1035d0371f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
     comments: 100,
     likes: 250,
-    description:
-        'Beauty of nature ❤️️',
+    description: 'Beauty of nature ❤️️',
     retweets: 1000,
   ),
   Post(
@@ -35,8 +52,7 @@ final List<Post> posts = [
         'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
     comments: 100,
     likes: 250,
-    description:
-        'Experience is the name everyone gives to their mistakes.',
+    description: 'Experience is the name everyone gives to their mistakes.',
     retweets: 1000,
   ),
   Post(
@@ -51,8 +67,7 @@ final List<Post> posts = [
         'https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
     comments: 100,
     likes: 250,
-    description:
-        'A reader lives a thousand lives before he dies',
+    description: 'A reader lives a thousand lives before he dies',
     retweets: 1000,
   ),
   Post(
@@ -67,8 +82,7 @@ final List<Post> posts = [
         'https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1372&q=80',
     comments: 100,
     likes: 250,
-    description:
-        'Be Productive 😎',
+    description: 'Be Productive 😎',
     retweets: 1000,
   ),
 ];
